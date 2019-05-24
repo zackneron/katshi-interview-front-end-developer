@@ -13,28 +13,36 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 2rem;
     }
 
-    &__menu--list {
-        li {
-            font-size: 17px;
-            border-bottom: 1px solid $content-secondary-color;
-            transition: border .5s linear;
-
-            &:not(:first-child) {
-                padding-top: 10px;
-            }
-
-            &:hover {
-                border-bottom-color: $white;
-            }
-
-            a {
-                color: $content-secondary-color;
-                display: block;
-                padding-bottom: 10px;
+    &__menu {
+        &-box {
+            border: 1px solid;
+            border-radius: .5rem;
+            padding: 1rem;
+        }
+        &--list {
+            li {
+                font-size: 1.7rem;
+                border-bottom: 1px solid $content-secondary-color;
+                transition: border .5s linear;
+    
+                &:not(:first-child) {
+                    padding-top: 1rem;
+                }
+    
+                &:hover {
+                    border-bottom-color: $white;
+                }
+    
+                a {
+                    color: $content-secondary-color;
+                    display: block;
+                    padding-bottom: 1rem;
+                }
             }
         }
     }
+
 }
