@@ -15,7 +15,7 @@ With my knowledge of HTML/CSS and BootStrap I have built a responsive page for m
 
 ## Final output
 
-I have used placeholder text and Realm Digital logo
+I have used placeholder text, Realm Digital logo and physical address as a map.
 
 ## How to send this to us
 
