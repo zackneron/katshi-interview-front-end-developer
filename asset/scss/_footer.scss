@@ -24,8 +24,9 @@
         }
         &--list {
             li {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
                 border-bottom: 1px solid $content-secondary-color;
+                line-height: 2rem;
                 transition: border .5s linear;
     
                 &:not(:first-child) {

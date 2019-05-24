@@ -67,8 +67,9 @@ a {
     border-radius: .5rem;
     padding: 1rem; }
   .footer__menu--list li {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     border-bottom: 1px solid #76828c;
+    line-height: 2rem;
     transition: border .5s linear; }
     .footer__menu--list li:not(:first-child) {
       padding-top: 1rem; }
