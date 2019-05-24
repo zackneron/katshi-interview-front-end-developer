@@ -1,0 +1,106 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  color: #76828c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+a {
+  transition: all .2s linear; }
+  a:link, a:focus, a:visited {
+    outline: none;
+    text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.header-content {
+  padding: 3.5rem 0 3rem; }
+  .header-content p {
+    line-height: 1.2; }
+  .header-content h4 {
+    font-size: 2rem; }
+  .header-content__section {
+    margin-bottom: 2rem; }
+
+.logo-section {
+  margin-bottom: 30px; }
+
+.logo-item {
+  text-align: center; }
+  @media (min-width: 500px) and (max-width: 992px) {
+    .logo-item {
+      float: left; } }
+  @media (min-width: 992px) {
+    .logo-item {
+      text-align: left; } }
+
+.main {
+  background-color: #f8f9fb;
+  padding: 5rem 0 3rem; }
+
+.footer {
+  background-color: #e6e9eb;
+  padding: 3.5rem 0 3rem; }
+  .footer__block {
+    margin-bottom: 2.5rem; }
+  .footer__map-embeded {
+    height: 26rem;
+    width: 100%;
+    border: 0; }
+  .footer h4 {
+    font-size: 20px; }
+  .footer__menu--list li {
+    font-size: 17px;
+    border-bottom: 1px solid #76828c;
+    transition: border .5s linear; }
+    .footer__menu--list li:not(:first-child) {
+      padding-top: 10px; }
+    .footer__menu--list li:hover {
+      border-bottom-color: #ffffff; }
+    .footer__menu--list li a {
+      color: #76828c;
+      display: block;
+      padding-bottom: 10px; }
+
+.btn {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem 1.2rem; }
+
+.title {
+  font-weight: 700;
+  margin-bottom: 3rem; }
+
+.section-subtitle {
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+.header-search__block {
+  position: relative; }
+  .header-search__block .fa-search {
+    position: absolute;
+    right: 1rem;
+    bottom: .8rem; }
+@media (min-width: 500px) and (max-width: 992px) {
+  .header-search__block--mobile {
+    float: right; } }
+.header-search__field {
+  background-color: #ebeff3;
+  border: none; }
+  .header-search__field:focus {
+    outline: none;
+    box-shadow: 0 0 0.5rem #76828c; }
+
+/*# sourceMappingURL=style.css.map */

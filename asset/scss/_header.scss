@@ -1,0 +1,27 @@
+.header-content {
+    padding: 3.5rem 0 3rem;
+    p {
+        line-height: 1.2;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    &__section {
+        margin-bottom: 2rem;
+    }
+}
+.logo-section {
+    margin-bottom: 30px;
+}
+
+.logo-item {
+    text-align: center;
+    @media (min-width: 500px) and (max-width: 992px) {
+        float: left;
+    }
+    @media (min-width: 992px) {
+        text-align: left;
+    }
+}

@@ -1,0 +1,29 @@
+.header-search {
+    &__block {
+        position: relative;
+
+        .fa-search {
+            position: absolute;
+            right: 1rem;
+            bottom: .8rem;
+        }
+
+        
+    }
+
+    &__block--mobile {
+        @media (min-width: 500px) and (max-width: 992px) {
+            float: right;
+        }
+    }
+
+    &__field {
+        background-color: $search-input-bg-color;
+        border: none;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 .5rem $content-secondary-color;
+        }
+    }
+}

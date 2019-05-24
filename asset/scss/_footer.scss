@@ -1,0 +1,40 @@
+.footer {
+    background-color: $footer-bg-color;
+    padding: 3.5rem 0 3rem;
+
+    &__block {
+        margin-bottom: 2.5rem;
+    }
+
+    &__map-embeded {
+        height: 26rem;
+        width: 100%;
+        border: 0;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    &__menu--list {
+        li {
+            font-size: 17px;
+            border-bottom: 1px solid $content-secondary-color;
+            transition: border .5s linear;
+
+            &:not(:first-child) {
+                padding-top: 10px;
+            }
+
+            &:hover {
+                border-bottom-color: $white;
+            }
+
+            a {
+                color: $content-secondary-color;
+                display: block;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
